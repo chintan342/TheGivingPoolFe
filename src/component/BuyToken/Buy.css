@@ -1,0 +1,163 @@
+.buyTokenMain {
+    background-color: #23242F;
+    padding: 30px;
+}
+.buyTokenBG {
+    background-color: #2C2C3A;
+    border-radius: 24px;
+    padding: 30px;
+}
+.buyTokenContainer {
+    max-width: 420px;
+}
+.buyTokenContainer .topIconMain {
+    display: flex;
+    justify-content: flex-end;
+}
+.topIconBtn {
+    background-color: #3B3C4E;
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.topIconBtn::after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 40px;
+}
+.topIconBtn:hover:after {
+    left: 120%;
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.font14lGray {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8CA7;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.link14lGray {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8CA7;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.link14lGray:hover {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.selectPartMain {
+    background-color: transparent;
+    border: solid 1px #3B3C4E;
+    border-radius: 16px;
+    height: 56px;
+    padding: 15px;
+    width: 100%;
+}
+.font20lGray {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    color: #8B8CA7;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.themeButton {
+    background: #3B3C4E;
+    border-radius: 16px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    color: #4F5069;
+    position: relative;
+    overflow: hidden;
+}
+.themeButton::after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 40px;
+}
+.themeButton:hover:after {
+    left: 120%;
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.themeButton:hover {
+    background: linear-gradient(104deg, rgba(154,107,71,1) 0%, rgba(79,51,58,1) 32%, rgba(85,34,34,1) 89%);
+    color: #fff;
+    background-repeat:no-repeat;
+}
+.inputField {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    color: #8B8CA7;
+    text-transform: none;
+    letter-spacing: normal;
+    background-color: transparent;
+    border: 0;
+    line-height: 24px;
+    text-align: right;
+    padding: 0;
+}
+.inputField:focus {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+.buyTokenContainer hr {
+    border-top: solid 1px #3B3C4E;
+    opacity: 1;
+}
+.font14White {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.font14lGreen {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #53F3C3;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.font14WhiteBold {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: normal;
+}

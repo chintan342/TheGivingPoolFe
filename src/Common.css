@@ -1,0 +1,621 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-Black.woff') format('woff'),
+        url('./assets/fonts/FiraSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-BlackItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-Bold.woff') format('woff'),
+        url('./assets/fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-ExtraBold.woff') format('woff'),
+        url('./assets/fonts/FiraSans-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-ExtraLight.woff') format('woff'),
+        url('./assets/fonts/FiraSans-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-ExtraBoldItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-ExtraLightItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-Italic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-Medium.woff') format('woff'),
+        url('./assets/fonts/FiraSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-LightItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-Light.woff') format('woff'),
+        url('./assets/fonts/FiraSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-MediumItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-Regular.woff') format('woff'),
+        url('./assets/fonts/FiraSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-SemiBold.woff') format('woff'),
+        url('./assets/fonts/FiraSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-Thin.woff') format('woff'),
+        url('./assets/fonts/FiraSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-SemiBoldItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./assets/fonts/FiraSans-ThinItalic.woff') format('woff'),
+        url('./assets/fonts/FiraSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Black.woff') format('woff'),
+        url('./assets/fonts/Poppins-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Black.woff') format('woff'),
+        url('./assets/fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Bold.woff') format('woff'),
+        url('./assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraLightItalic.woff') format('woff'),
+        url('./assets/fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('./assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraLight.woff') format('woff'),
+        url('./assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('./assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-LightItalic.woff') format('woff'),
+        url('./assets/fonts/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Light.woff') format('woff'),
+        url('./assets/fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.woff') format('woff'),
+        url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-SemiBold.woff') format('woff'),
+        url('./assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-MediumItalic.woff') format('woff'),
+        url('./assets/fonts/Poppins-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Medium.woff') format('woff'),
+        url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Italic.woff') format('woff'),
+        url('./assets/fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ThinItalic.woff') format('woff'),
+        url('./assets/fonts/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Thin.woff') format('woff'),
+        url('./assets/fonts/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-SemiBoldItalic.woff') format('woff'),
+        url('./assets/fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+/* reset css start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus, .btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus,.btn-check:focus+.btn-secondary, .btn-secondary:focus, .btn-check:active+.btn-secondary:focus, .btn-check:checked+.btn-secondary:focus, .btn-secondary.active:focus, .btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+.btn-check:active+.btn-outline-light:focus, .btn-check:checked+.btn-outline-light:focus, .btn-outline-light.active:focus, .btn-outline-light.dropdown-toggle.show:focus, .btn-outline-light:active:focus, .btn-check:focus+.btn-outline-light, .btn-outline-light:focus {
+  box-shadow: none;
+}
+/* reset css end */
+
+body{
+    background-color: #171F39;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 1.5;
+    font-family: 'Poppins';
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+a, button, a.nav-link{
+    -webkit-transition: all ease 0.5s;-o-transition: all ease 0.5s;transition: all ease 0.5s;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 10px 13px !important;
+    color: rgb(255 255 255) !important;
+    background: #1C1C1E;
+    background-color: transparent;
+    background: linear-gradient(104deg, rgba(154,107,71,1) 0%, rgba(79,51,58,1) 32%, rgba(85,34,34,1) 89%);
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-primary:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+}
+.btn-primary:hover:after {
+    left: 120%;
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.btn-primary span{
+    z-index: 2;
+    position: relative;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 85px 150px 45px 150px;
+}
+h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 40px 0;
+}
+p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.gradient-bg{
+    background: linear-gradient(90deg, #09103A 0%, #493E3E 45.83%, #09103A 100%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 60px 33px;
+}
+.text-red{
+    color: #F55757 !important;
+    ;
+}
+/* Header css start */
+header {
+    background-image: url('./assets/images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85px;
+}
+header .bg-overlay {
+    background: linear-gradient(270deg, rgba(32, 48, 104, 0.2226) 1.56%, rgba(241, 243, 250, 0.2226) 49.48%, rgba(18, 26, 52, 0.4134) 100%);
+    box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+    min-height: 85px;
+}
+header .navbar-nav {
+    margin: 0 15px;
+}
+header .navbar-nav a {
+    margin: 0 5px;
+}
+header .navbar-nav a:not(.btn-primary){
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255 255 255) !important;
+}
+/* Header css end */
+
+/* Footer css start */
+footer h4 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #CFD7F2;
+}
+footer {
+    margin: 50px 0;
+}
+ul.social-icon li {
+    margin: 0 15px;
+}
+ul.social-icon {
+    margin: 30px 0;
+}
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+/* Footer css end */
+
+
+/* table start  */
+.tableCustom {
+    filter: drop-shadow(10px 30px 20px rgba(104, 40, 40, 0.5));
+}
+.tableCustom .table tr th {
+  background-color: rgba(38, 24, 51, 1);
+  font-family: 'Poppins';
+  color: rgba(245, 87, 87, 1);
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0 !important;
+  border-right: solid 1px #fff !important;
+}
+.tableCustom .table tr td {
+  background-color: #182333;
+  font-family: 'Poppins';
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0 !important;
+  border-right: solid 1px #fff !important;
+  border-bottom: solid 1px #fff !important;
+}
+.tableCustom .table tr:last-child td {
+    color: rgba(245, 87, 87, 1);
+  }
+.tableCustom .table tr th:last-child {
+  border-right: 0 !important;
+}
+.tableCustom .table tr td:last-child {
+  border-right: 0 !important;
+}
+.tableCustom .table tbody::before {
+  content: "-";
+  display: block;
+  line-height: 4px;
+  color: transparent;
+}
+ /* table end  */
+
+ /* Launch timer start */
+ .launchTimer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ .launchTimer h2 {
+    font-family: 'Fira Sans';
+    font-size: 29px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 18px;
+ }
+ .launchTimer .timerMain {
+     display: flex;
+     margin: 0 auto;
+     align-items: center;
+ }
+ .launchTimer .timerMain .part {
+     width: 116px;
+     height: 100px;
+     background-color: rgba(22, 26, 57, 1);
+     border-radius: 7px;
+     font-family: 'Fira Sans';
+    font-size: 80px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.launchTimer .timerMain .part .line {
+    position: absolute;
+    margin-top: -10px;
+}
+.launchTimer .timerMain .sepretor {
+    font-family: 'Fira Sans';
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.launchTimer .timerMain .part::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.launchTimer .timerMain .days::after {
+    content: 'DAYS';
+}
+.launchTimer .timerMain .hours::after {
+    content: 'HOURS';
+}
+.launchTimer .timerMain .minutes::after {
+    content: 'MINUTES';
+}
+.launchTimer .timerMain .seconds::after {
+    content: 'SECONDS';
+}
+ /* Launch timer end */

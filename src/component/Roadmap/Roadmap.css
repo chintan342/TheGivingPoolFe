@@ -1,0 +1,20 @@
+.Roadmap ul {
+    margin: 30px 0;
+}
+.Roadmap ul li{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.Roadmap ul li.text-red {
+    font-size: 27px;
+}
+.Roadmap h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.Roadmap .tableCustom {
+    margin: 30px 0;
+}
+    
