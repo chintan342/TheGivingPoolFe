@@ -31,7 +31,7 @@ function Header() {
                   <Nav.Link href="Whitepaper">WHITEPAPER</Nav.Link>
                   <Nav.Link href="Tokenomics">Tokenomics</Nav.Link>
                   <Nav.Link href="#action5" className="btn-primary"><span>CHART</span></Nav.Link>
-                  <Nav.Link href="#action6" className="btn-primary"><span>BUY NOW</span></Nav.Link>
+                  <Nav.Link href="Buy" className="btn-primary"><span>BUY NOW</span></Nav.Link>
                   <Nav.Link href="#action7" className="btn-primary"><span>CONNECT WALLET</span></Nav.Link>
                 </Nav>
               </Offcanvas.Body>
